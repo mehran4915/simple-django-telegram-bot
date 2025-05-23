@@ -1,0 +1,42 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Database files
+*.sqlite3
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+env.bak/
+venv.bak/
+
+# Static files
+/staticfiles/
+*.log
+
+# Media files
+/media/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# pipenv files
+Pipfile
+Pipfile.lock
